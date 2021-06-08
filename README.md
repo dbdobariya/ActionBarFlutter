@@ -17,13 +17,14 @@ automaticallyImplyLeading: false
 
 # 2) Create menu button.
 Flutter allow you to create menu or leading button in Appbar. Usually we create menu button manually in android but in flutter we create menu or leading button using a single Appbar properties. Just add below code in your Appbar widget to create customize leading button. It is located on the left side of the Appbar.
-
+<pre>
+<code>
 AppBar(
   title: Text("Hello Appbar"),
   leading: Icon(
     Icons.menu,
   ),
-);
+);</code></pre>
 
 
 
