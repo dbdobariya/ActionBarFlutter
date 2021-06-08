@@ -7,9 +7,9 @@ In Appbar we create different toolbar widgets like menu button, actions, icon bu
 # 1) Play with back button.
 When we created app bar, It shows back button by default enable Like this.
 
-AppBar(
+ <code>AppBar(
   title: Text("Hello Appbar"),
-)
+)</code>
 
 If you want to remove this then add this property in your AppBar widget
 
